@@ -1,0 +1,44 @@
+/*  ========================================================================
+    # Custom - List of Links as Cards
+    ========================================================================  */
+
+.list-of-links-as-cards {
+  .cm-line.HyperMD-list-line:has(.cm-hmd-internal-link) {
+    text-indent: 0 !important;
+    padding-inline-start: 0 !important;
+    padding-top: 12px;
+  }
+
+  ul:has(.internal-link) {
+    padding: 0;
+
+    li:not(:first-child) {
+      margin: 12px 0 0;
+    }
+  }
+
+  .cm-line.HyperMD-list-line:has(.cm-hmd-internal-link) .cm-formatting-list:has(.list-bullet),
+  ul:has(.internal-link) .list-bullet {
+    display: none;
+  }
+
+  .cm-line.HyperMD-list-line:has(.cm-hmd-internal-link) .cm-hmd-internal-link span:not(.is-unresolved),
+  ul:has(.internal-link) a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px !important;
+    border: 1px solid #ebebeb;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px -1px rgb(0 0 0 / 10%);
+    text-decoration: none;
+    transition-property: box-shadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .cm-line.HyperMD-list-line:has(.cm-hmd-internal-link) .cm-hmd-internal-link span:not(.is-unresolved):hover,
+  ul:has(li):has(.internal-link) a:hover {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -2px rgb(0 0 0 / 10%);
+    text-decoration: none;
+  }
+}

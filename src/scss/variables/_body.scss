@@ -1,0 +1,31 @@
+/*  ========================================================================
+    # Variables - Body
+    ========================================================================  */
+
+body {
+  // Backgrounds
+  --background-primary: var(--bg1);
+  --background-secondary: var(--bg2);
+  --titlebar-background: var(--bg1);
+  --titlebar-background-focused: var(--bg1);
+
+  // Lines
+  --divider-color: var(--ui1);
+  --nav-indentation-guide-color: var(--ui1);
+  --modal-border-color: var(--ui2);
+
+  // Icons
+  --nav-collapse-icon-color: var(--tx2);
+  --nav-collapse-icon-color-collapsed: var(--tx2);
+
+  // Text
+  --text-normal: var(--tx1);
+  --text-muted: var(--tx2);
+  --tab-text-color: var(--text-muted);
+  --tab-text-color-focused: var(--text-muted);
+  --tab-text-color-active: var(--text-normal);
+  --tab-text-color-focused-active: var(--text-normal);
+  --tab-text-color-focused-active-current: var(--text-normal);
+  --input-height: 32px;
+  --line-height-tight: 1.4;
+}

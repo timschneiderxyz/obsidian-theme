@@ -1,0 +1,45 @@
+/*  ========================================================================
+    # Variables - Theme
+    ========================================================================  */
+
+.theme-light {
+  // Background
+  --bg1: #ffffff;
+  --bg2: #f7f6f4;
+  --bg3: #e8e7e4;
+
+  // User Interface
+  --ui1: #ededec;
+  --ui2: #dbdbda;
+  --ui3: #aaa9a5;
+
+  // Text
+  --tx1: #37352f;
+  --tx2: #72706c;
+  --tx3: #aaa9a5;
+
+  // Misc
+  --background-modifier-cover: hsla(39deg, calc(18% - 70%), calc(96% - 20%), 50%);
+  --interactive-accent: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 6%) );
+}
+
+.theme-dark {
+  // Background
+  --bg1: #ffffff;
+  --bg2: #f7f6f4;
+  --bg3: #e8e7e4;
+
+  // User Interface
+  --ui1: #ededec;
+  --ui2: #dbdbda;
+  --ui3: #aaa9a5;
+
+  // Text
+  --tx1: #37352f;
+  --tx2: #72706c;
+  --tx3: #aaa9a5;
+
+  // Misc
+  --background-modifier-cover: hsla(39deg, calc(18% - 70%), calc(96% - 20%), 50%);
+  --interactive-accent: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) - 4%) );
+}

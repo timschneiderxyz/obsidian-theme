@@ -1,0 +1,50 @@
+/*  ========================================================================
+    # App - Sidebar
+    ========================================================================  */
+
+body {
+  &.is-focused {
+    // Background in the top left corner when the window is focused and the sidebar is not collapsed.
+    --titlebar-background-focused: var(--bg2);
+
+    // Background in the top left corner when the window is focused and the sidebar is collapsed.
+    .workspace-ribbon.mod-left.is-collapsed {
+      --titlebar-background-focused: var(--bg1);
+    }
+  }
+}
+
+// Background in the top left corner when the window is not focused and the sidebar is not collapsed.
+.workspace-ribbon.mod-left:not(.is-collapsed) {
+  --titlebar-background: var(--bg2);
+}
+
+// Buttons at the top of the sidebar.
+.nav-buttons-container {
+  justify-content: flex-start;
+}
+
+// Vault titel
+.mod-root>.nav-folder-title .nav-folder-title-content {
+  display: none;
+}
+
+// Left
+// =============================================================================
+
+.mod-left-split {
+  // Background title bar above the left sidebar when it is not collapsed.
+  .mod-top .workspace-tab-header-container {
+    --tab-container-background: var(--bg2);
+  }
+}
+
+// Right
+// =============================================================================
+
+.mod-right-split {
+  // Background right sidebar.
+  .workspace-tabs .workspace-leaf {
+    --background-secondary: var(--bg1);
+  }
+}

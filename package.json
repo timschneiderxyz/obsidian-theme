@@ -1,0 +1,26 @@
+{
+  "name": "obsidian-theme",
+  "description": "",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Tim Schneider",
+    "twitter": "@timschneiderxyz",
+    "email": "timschneider.xyz@gmail.com",
+    "url": "https://timschneider.xyz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:timschneiderxyz/obsidian-theme.git"
+  },
+  "scripts": {
+    "dev": "sass --watch --no-source-map src/scss/main.scss dist/main.css",
+    "build": "sass --style compressed --no-source-map src/scss/main.scss dist/main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.66.0",
+    "stylelint": "^15.10.2",
+    "stylelint-config-standard-scss": "^10.0.0"
+  }
+}
