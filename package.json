@@ -1,6 +1,6 @@
 {
   "name": "obsidian-theme",
-  "description": "",
+  "description": "Theme for Obsidian.",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
@@ -19,8 +19,8 @@
     "build": "sass --style compressed --no-source-map src/scss/main.scss dist/main.css"
   },
   "devDependencies": {
-    "sass": "^1.66.1",
-    "stylelint": "^15.10.3",
-    "stylelint-config-standard-scss": "^10.0.0"
+    "sass": "^1.71.0",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard-scss": "^13.0.0"
   }
 }

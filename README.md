@@ -1,7 +1,7 @@
 <h1 align="center">Obsidian Theme</h1>
 
 <p align="center">
-  Custom Theme for <a href="https://obsidian.md/">Obsidian</a>.
+  Theme for <a href="https://obsidian.md/">Obsidian</a>.
 </p>
 
 <p align="center">
