@@ -19,8 +19,9 @@
     "build": "sass --style compressed --no-source-map src/scss/main.scss dist/main.css"
   },
   "devDependencies": {
-    "sass": "^1.71.0",
-    "stylelint": "^16.2.1",
+    "@stylistic/stylelint-plugin": "^2.1.0",
+    "sass": "^1.72.0",
+    "stylelint": "^16.3.1",
     "stylelint-config-standard-scss": "^13.0.0"
   }
 }

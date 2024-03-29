@@ -4,7 +4,7 @@
 
 body {
   &.is-focused {
-    // Background title bar when the window is focused.
+    /* Background title bar when the window is focused. */
     .workspace-tabs.mod-top {
       --titlebar-background-focused: var(--bg1);
     }
