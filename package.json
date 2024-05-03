@@ -15,13 +15,13 @@
     "url": "git@github.com:timschneiderxyz/obsidian-theme.git"
   },
   "scripts": {
-    "dev": "sass --watch --no-source-map src/scss/main.scss dist/main.css",
-    "build": "sass --style compressed --no-source-map src/scss/main.scss dist/main.css"
+    "dev": "sass --watch --no-source-map src/main.scss dist/main.css",
+    "build": "sass --style compressed --no-source-map src/main.scss dist/main.css"
   },
   "devDependencies": {
-    "@stylistic/stylelint-plugin": "^2.1.0",
-    "sass": "^1.72.0",
-    "stylelint": "^16.3.1",
-    "stylelint-config-standard-scss": "^13.0.0"
+    "@stylistic/stylelint-plugin": "^2.1.2",
+    "sass": "^1.76.0",
+    "stylelint": "^16.5.0",
+    "stylelint-config-standard-scss": "^13.1.0"
   }
 }

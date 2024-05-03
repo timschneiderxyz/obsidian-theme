@@ -1,0 +1,63 @@
+/*  ========================================================================
+    # App - Sidebars
+    ========================================================================  */
+
+/**
+ * Buttons at the top of the content of each individual sidebar.
+ */
+.workspace-tab-container {
+  .nav-buttons-container {
+    justify-content: flex-start;
+  }
+}
+
+// Sidebar - Left
+// =============================================================================
+
+/**
+ *
+ */
+.workspace-ribbon.mod-left {
+  --titlebar-background: var(--bg2);
+  --titlebar-background-focused: var(--bg2);
+
+  &.is-collapsed {
+    --titlebar-background: var(--bg1);
+    --titlebar-background-focused: var(--bg1);
+  }
+}
+
+/**
+ *
+ */
+.mod-left-split {
+  .workspace-tab-header-container {
+    --tab-container-background: var(--bg2);
+  }
+
+  .workspace-tab-container {
+    .nav-files-container {
+      font-family: var(--font-monospace-override);
+    }
+  }
+}
+
+// Sidebar - Right
+// =============================================================================
+
+/**
+ *
+ */
+.mod-right-split {
+  .workspace-tab-header-container {
+    --tab-container-background: var(--bg2);
+
+    .sidebar-toggle-button {
+      --tab-container-background: var(--bg2);
+    }
+  }
+
+  .workspace-tab-container {
+    --background-secondary: var(--bg2);
+  }
+}
